@@ -1,43 +1,30 @@
-#Nama Pembuat
-print("Nama : Reyfaldho Alfarazel")
-print("Nim : 2309116007")
-print("---------------------------")
-print("masukan nama, nim, dan password ")
+Flowchart dan Penjelasan
+![image](https://github.com/Reyfaldho/Reyfaldho/assets/144695357/2d69e605-2acd-49fd-8550-56b0fb8eb2cf)
 
-def login():
-    nama = input("masukan nama : ")
-    nim = input("masukan nim : ")
-    password = input("masukan password : ") 
-    
-    if nama == "Reyfaldho Alfarazel" and nim == "2309116007" and password == "sisteminformasijayajaya": 
-        print("selamat anda telah login ")
-    else:
-        print("login gagal,silahkan check nama nim dan password")
-login()
+Percabangan Segitiga Pythagoras
 
-print("===========================================================")
-print("silahkan kerjakan menghitung rumus segitiga pythagoras ini")
-print("1. Sisi Alas")
-print("2. Sisi Tegak")
-print("3. Sisi Miring")
+1.Mulai: Untuk memulai sebuah flowchart dengan simbol start
 
-operasi  =float(input("masukan operasi sisi (1/2/3): "))
+2.Input: Untuk menjalankan sebuah operasi di masing masing rumus (sisi alas, sisi tegak,dan sisi miring)
 
-import math
-if operasi == 1:
-    sisi_miring =int(input("masukan Nilai sisi miring: "))
-    sisi_tegak =int(input("masukan nilai sisi tegak: "))
-    sisi_alas =math.sqrt(sisi_miring**2 - sisi_tegak**2)
-    print("hasil dari sisi alas adalah: ",sisi_alas)
-elif operasi == 2:
-    sisi_miring =int(input("masukan nilai sisi miring: "))
-    sisi_alas =int(input("masukan nilai sisi alas: "))
-    sisi_tegak= math.sqrt(sisi_miring**2 - sisi_alas**2)
-    print("hasil dari sisi tegak adalah: ",sisi_tegak)
-elif operasi == 3:
-    sisi_alas =int(input("masukan nilai sisi alas: "))
-    sisi_tegak =int(input("masukan nilai sisi tegak: "))
-    sisi_miring = math.sqrt(sisi_alas**2 + sisi_tegak**2)
-    print("hasil dari sisi miring adalah: ",sisi_miring)
-else:
-    print("operasi tidak tersedia")
+3.Decision: Untuk melakukan percabangan dengan proces dan percabangan lainnya
+
+4.Process:Memasukan rumus tiap decision seperti sisi alas, sisi tegak, dan sisi miring
+
+5.Output: Hasil dari semua percabangan seperti sisi alas, sisi tegak, dan sisi miring
+
+6.Selesai: Untuk menyelesaikan sebuah flowchart tersebut
+
+![image](https://github.com/Reyfaldho/Reyfaldho/assets/144695357/240b53a4-ee15-4e09-8bda-884265241d02)
+
+Login sederhana
+
+1.Mulai: Memulai sebuah flowchart dengan simbol start
+
+2.Input: Mengguna memasukan nama, nim, dan password
+
+3.Decision: Untuk melakukan percabangan berhasil atau tidak nya sebuah input
+
+4.Output: Apabila "iya" login akan berhasil. sedangkan kalau "tidak" login tidak berhasil.
+
+5.Selesai: Untuk menyelesaikan sebuah flowchart tersebut
